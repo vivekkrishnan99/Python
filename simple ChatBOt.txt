@@ -1,0 +1,20 @@
+import random
+
+Greeting_words = ("hi", "sup", "hey", "vola", "ola", "bye")
+
+Greeting_response = ["hi", "bonjure", "namaskaram", "vananakam", "bye"]
+
+def check_for_greeting(sentence):
+     for word in sentence.split(' '):
+         if word.lower() in Greeting_words:
+             return random.choice(Greeting_response)
+         else:
+                return "I'm Sorry I'm affraid I dont understand you.."
+while True:
+    sentence = input("You: ")
+    response = check_for_greeting(sentence)
+    print("MephistoBot: " + response)
+
+    if 'bye' in sentence:
+        print("MephistoBot: Bye")
+        break

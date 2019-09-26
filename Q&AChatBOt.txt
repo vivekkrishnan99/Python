@@ -1,0 +1,50 @@
+import random
+import sys
+
+Questions = [
+    "How are you?"
+    "What are you doing?"
+    "How is the weather today?"
+    "Can you sing me a song?"
+    "How is thr traffic near AIT?"
+    "Can you call Divya Rachel?"
+    ]
+
+Answers = [
+    "I'm Fine Thanks..!"
+    "I have been waiting for you all this time.. :)"
+    "The weather seems cloudy..Better carry an umbrella..! :D"
+    "YES Definitely Will Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Eh, sexy lady Op, op, op, op"
+    "Seems Clear..Drive Safe Buddy!"
+    "Calling Divya Rachel..."
+    ]
+
+def list_faq():
+    for i in range(len(Questions)):
+        print(str(i)+":"+Questions[i])
+
+def check_for_FAQ_by_index():
+    list_faq()
+    question_id = input("which Question Would You LIke Me To Answer Boss?")
+    response =" "
+
+    if "bye" in question_id:
+        sys.exit()
+    elif int(question_id) < len(Questions):
+        response = Answers[int(question_id)]
+    else:
+        response = "Oops,I'm affraid I can't answer to that"
+    return response
+
+def check_for_FAQ(question):
+    response =" "
+    if question in Questions:
+        index = Questions.index(question)
+        response = Answers[index]
+    else:
+        response = "Oops,I'm affraid I can't answer to that"
+    return response
+
+while True:
+    response = check_for_FAQ_by_index()
+    print("YourBot: " + response)
