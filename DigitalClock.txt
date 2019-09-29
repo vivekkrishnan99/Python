@@ -17,7 +17,7 @@ times()
 digi=Label(root,text="Digital clock",font="times 24 bold")
 digi.grid(row=0,column=2)
 
-nota=Label(root,text="hours   minutes   seconds   ",font="times 15 bold")
+nota=Label(root,text="Hours   Minutes   Seconds   ",font="times 15 bold")
 nota.grid(row=3,column=2)
 
 root.mainloop()
