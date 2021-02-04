@@ -16,7 +16,7 @@ Answers = [
     "The weather seems cloudy..Better carry an umbrella..! :D"
     "YES Definitely Will Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Eh, sexy lady Op, op, op, op"
     "Seems Clear..Drive Safe Buddy!"
-    "Calling Divya Rachel..."
+    "Calling Shruthi R..."
     ]
 
 def list_faq():
