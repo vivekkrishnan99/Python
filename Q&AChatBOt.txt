@@ -2,21 +2,21 @@ import random
 import sys
 
 Questions = [
-    "How are you?"
-    "What are you doing?"
-    "How is the weather today?"
-    "Can you sing me a song?"
-    "How is thr traffic near AIT?"
-    "Can you call Shruthi R?"
+    "How are you?",
+    "What are you doing?",
+    "How is the weather today?",
+    "Can you sing me a song?",
+    "How is the traffic near AIT?",
+    "Can you call Shruthi R?",
     ]
 
 Answers = [
-    "I'm Fine Thanks..!"
-    "I have been waiting for you all this time.. :)"
-    "The weather seems cloudy..Better carry an umbrella..! :D"
-    "YES Definitely Will Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Eh, sexy lady Op, op, op, op"
-    "Seems Clear..Drive Safe Buddy!"
-    "Calling Shruthi R..."
+    "I'm Fine Thanks..!",
+    "I have been waiting for you all this time.. :)",
+    "The weather seems cloudy..Better carry an umbrella..! :D",
+    "Here is the song from psy... Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Gangnam Style Op, op, op, op Oppa Gangnam Style Eh, sexy lady Op, op, op, op",
+    "Seems Clear..Drive Safe Buddy!",
+    "Calling Shruthi R...",
     ]
 
 def list_faq():
