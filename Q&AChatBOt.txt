@@ -7,7 +7,7 @@ Questions = [
     "How is the weather today?"
     "Can you sing me a song?"
     "How is thr traffic near AIT?"
-    "Can you call Divya Rachel?"
+    "Can you call Shruthi R?"
     ]
 
 Answers = [
